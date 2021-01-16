@@ -1,0 +1,17 @@
+<ul class="nav nav-tabs">
+	<li routerLinkActive="selected" [routerLinkActiveOptions]="{exact: true}">
+	  <a routerLink="/">Home</a>
+	</li>
+	<li routerLinkActive="selected">
+	  <a routerLink="servers">Servers</a>
+	</li>
+	<li routerLinkActive="selected">
+	  <a routerLink="users">Users</a>
+	</li>
+  </ul>
+<div class="tabPane">
+<div>
+<p>Parent Router Outlet - app.component</p>
+<router-outlet></router-outlet>
+</div>
+</div>

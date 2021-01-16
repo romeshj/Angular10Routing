@@ -1,0 +1,37 @@
+ul li {
+  display:inline-block;
+  list-style-type: none;
+ text-align: center;
+ margin : 10px;
+ height : 40px;
+ line-height: 40px;
+ vertical-align: middle;
+ background-color: #EEEEFF;
+ box-shadow: 5px 5px 5px gray;
+ border: 3px outset #EEEEFF;  
+ padding : 5px 20px;
+}
+
+ul li a {
+ text-decoration: none;
+ color: black;
+ margin-bottom: 2px;
+ margin-right: 2px;
+ border-radius: 5px; 
+ font-family: Arial;
+ font-size:  12px;
+  font-weight:  bold;
+  display:inline-block;
+}
+
+ul li.selected{
+ background-color: #DDDDEE;
+ box-shadow: 3px 3px 3px gray;
+}
+.tabPane{
+padding :  20px;
+ box-shadow: 5px 5px 5px gray;
+ border: 3px outset #EEEEFF;  
+ padding : 5px 20px;
+margin-top: -25px;
+}
